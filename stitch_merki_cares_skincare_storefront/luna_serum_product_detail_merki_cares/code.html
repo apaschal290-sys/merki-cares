@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { colors: { 'surface-container-low': '#f5f3ef', 'on-surface': '#1b1c1a', 'inverse-primary': '#c8c6c5', 'outline-variant': '#c4c7c7', 'on-secondary-container': '#765d58', 'primary-fixed-dim': '#c8c6c5', 'on-tertiary-container': '#00aa4d', 'on-secondary-fixed': '#291714', 'tertiary-container': '#003413', 'primary-container': '#2c2c2c', 'on-primary-fixed': '#1b1c1c', 'on-surface-variant': '#444748', 'surface-container-high': '#eae8e4', 'tertiary-fixed': '#66ff8e', 'tertiary-fixed-dim': '#3de273', 'on-tertiary-fixed-variant': '#005322', 'primary-fixed': '#e4e2e1', 'surface-variant': '#e4e2de', 'on-error': '#ffffff', 'primary': '#171818', 'secondary-fixed': '#fcdbd5', 'on-secondary-fixed-variant': '#58413d', 'secondary-fixed-dim': '#dfbfba', 'on-background': '#1b1c1a', 'inverse-surface': '#30312e', 'error-container': '#ffdad6', 'surface-tint': '#5f5e5e', 'outline': '#747878', 'inverse-on-surface': '#f2f0ed', 'on-primary': '#ffffff', 'surface-dim': '#dbdad6', 'surface-container-highest': '#e4e2de', 'secondary': '#715954', 'surface-container-lowest': '#ffffff', 'surface-bright': '#fbf9f5', 'background': '#fbf9f5', 'surface-container': '#efeeea', 'error': '#ba1a1a', 'on-tertiary-fixed': '#002109', 'tertiary': '#001d07', 'surface': '#fbf9f5', 'on-tertiary': '#ffffff', 'on-error-container': '#93000a', 'on-primary-container': '#949393', 'secondary-container': '#f9d8d2', 'on-secondary': '#ffffff', 'on-primary-fixed-variant': '#474747' }, borderRadius: { DEFAULT: '1rem', lg: '2rem', xl: '3rem', full: '9999px' }, spacing: { 'space-lg': '1.5rem', 'gutter-desktop': '1.5rem', 'space-xs': '0.25rem', 'margin-desktop': '3rem', 'space-xl': '2.5rem', 'space-md': '1rem', margin: '1.25rem', gutter: '1rem', 'space-sm': '0.5rem' }, fontFamily: { 'headline-xl-mobile': ['Plus Jakarta Sans'], 'body-sm': ['Plus Jakarta Sans'], 'label-sm': ['Plus Jakarta Sans'], 'label-md': ['Plus Jakarta Sans'], 'headline-lg-mobile': ['Plus Jakarta Sans'], 'label-lg': ['Plus Jakarta Sans'], 'headline-lg': ['Plus Jakarta Sans'], 'headline-md': ['Plus Jakarta Sans'], 'headline-xl': ['Plus Jakarta Sans'], 'headline-sm': ['Plus Jakarta Sans'], 'body-md': ['Plus Jakarta Sans'], 'body-lg': ['Plus Jakarta Sans'] }, fontSize: { 'headline-xl-mobile': ['2rem', { lineHeight: '2.5rem', letterSpacing: '-0.01em', fontWeight: '700' }], 'body-sm': ['0.875rem', { lineHeight: '1.375rem', fontWeight: '400' }], 'label-sm': ['0.6875rem', { lineHeight: '0.875rem', letterSpacing: '0.03em', fontWeight: '500' }], 'label-md': ['0.75rem', { lineHeight: '1rem', letterSpacing: '0.04em', fontWeight: '600' }], 'headline-lg-mobile': ['1.625rem', { lineHeight: '2.125rem', letterSpacing: '-0.01em', fontWeight: '600' }], 'label-lg': ['0.875rem', { lineHeight: '1.25rem', letterSpacing: '0.02em', fontWeight: '600' }], 'headline-lg': ['2.25rem', { lineHeight: '2.75rem', letterSpacing: '-0.02em', fontWeight: '600' }], 'headline-md': ['1.5rem', { lineHeight: '2rem', letterSpacing: '-0.01em', fontWeight: '600' }], 'headline-xl': ['3rem', { lineHeight: '3.5rem', letterSpacing: '-0.02em', fontWeight: '700' }], 'headline-sm': ['1.25rem', { lineHeight: '1.75rem', fontWeight: '600' }], 'body-md': ['1rem', { lineHeight: '1.5rem', fontWeight: '400' }], 'body-lg': ['1.125rem', { lineHeight: '1.75rem', fontWeight: '400' }] } } } };</script><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior-y: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="min-h-full bg-surface text-on-surface flex flex-col font-body-md antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs min-w-0"><button aria-label="Go back" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container transition-colors shrink-0" onclick="history.back()"><span class="material-symbols-outlined text-[22px]">arrow_back</span></button><img alt="Merki Cares Logo" class="h-7 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida/ALJJyrD0l-bXI4W6utmtm_T4UoPDemFXnsFXrO79eXhWYRC1VucNDKOQhRVGy0jlaWK5qhecHnXeKavQJOQivrJhwv-gomGJwyAW_V48NFKJfMIC2ka3C61m6KYWipEzppoLhAJ0WYklPPjOcenujX5TKYPZihY2WmzP6kUEn0ZR68UgjWleP04HxdhbDxzI08S60kPgdRaFr6Sk54gjIIk5SmrxI_hWM2nR002NBj4DVAOP"/><h1 class="font-headline-sm text-headline-sm text-primary tracking-tight truncate pl-1">Product Detail</h1></div><div class="flex items-center gap-space-xs shrink-0"><a aria-label="Instagram @merkicares" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary transition-colors" href="https://instagram.com/merkicares" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-20"><div class="flex flex-col w-full px-margin pb-12 space-y-space-lg">
+<!-- Sub-Navigation Breadcrumb / Meta Bar -->
+<div class="flex items-center justify-between pt-space-xs">
+<button class="inline-flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors" onclick="history.back()">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span class="font-label-md text-label-md tracking-wider uppercase">Back to Shop</span>
+</button>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 bg-secondary-container/40 rounded-full">
+<span class="w-1.5 h-1.5 rounded-full bg-[#25D366] animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-secondary-container font-semibold">Ready to Ship</span>
+</div>
+</div>
+<!-- Hero Visual Container -->
+<div class="relative w-full rounded-xl bg-surface-container-low overflow-hidden shadow-[0_8px_30px_rgba(44,44,44,0.04)]">
+<!-- Overlay Floating Pill Badges -->
+<div class="absolute top-4 left-4 right-4 z-10 flex flex-wrap items-center justify-between gap-2 pointer-events-none">
+<span class="pointer-events-auto px-3 py-1 bg-primary text-on-primary rounded-full font-label-sm text-label-sm uppercase tracking-wider shadow-sm">
+        Best Seller
+      </span>
+<span class="pointer-events-auto px-3 py-1 bg-surface-container-lowest/90 backdrop-blur-md text-on-surface rounded-full font-label-sm text-label-sm shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-on-secondary-container" style="font-variation-settings: 'FILL' 1;">eco</span>
+        100% Gentle &amp; Non-Comedogenic
+      </span>
+</div>
+<!-- Main Display Image -->
+<div class="relative w-full aspect-[4/5] bg-surface-container-low flex items-center justify-center">
+<img alt="Luna Hydrating Renewal Serum 30ml" class="w-full h-full object-cover object-center transition-all duration-300" data-alt="Luna Hydrating Renewal Serum bottle standing serenely on a soft linen vanity with warm natural lighting, frosted glass with gentle pastel blush serum and a minimalist apothecary dropper aesthetic" id="main-product-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJpEn0kLWQWjMWCQ2OMpHtRpFrjMxHTWDs6qoQSlASTyWATgzmRNH6KzpZXlKIxx-Fy8AQaIj1QA0jvszj0-oH_3Y2aUEWyAWQBwRfnO9uc9jt36TDuYqxq4gMIsNqHJ4h0-fr1HqD0oa6oMMhtP9i_M5SZMnrh4IJ_GDDwpNEy0au514s5iUTt9SwZncUATjQlbZJ6m2AHqqBEBL9M586bDU_5qiDKQnk7sWPlL4"/>
+</div>
+<!-- Gallery Dot Indicators & Mini Thumbnails Drawer -->
+<div class="p-3 bg-surface-container-lowest flex items-center justify-between">
+<div class="flex items-center gap-2">
+<button aria-label="View Bottle Front" class="w-11 h-11 rounded-lg overflow-hidden bg-surface-container-low shadow-sm opacity-100 transition-opacity" id="thumb-0" onclick="switchView(0)">
+<img alt="Angle 1" class="w-full h-full object-cover" data-alt="Close up view of Luna Serum bottle label and minimalist dropper top on linen cloth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZmiPZa8z803oPmBxSJiO_Sk9eJwOscjpILp5C6XNKN_EmG6UMIT4Oq9bdcmSGVe62XIZRBdjCAZu0AGFHNZucQj8vOs9fga8nXl_KmK0dpQl-kFmWhHlK-X_MAYCiVhKza7c4vOGuCefvEAgnujfCWbLRK-GT8i--UepdpAr-WYCQ5pZl795RdHaA_lpGPZ_PMCNrIWxhhCzdH_-0YsW7WmCwbUhi8BwN1bGD2sM"/>
+</button>
+<button aria-label="View Texture Drop" class="w-11 h-11 rounded-lg overflow-hidden bg-surface-container-low shadow-sm opacity-50 hover:opacity-100 transition-opacity" id="thumb-1" onclick="switchView(1)">
+<img alt="Angle 2" class="w-full h-full object-cover" data-alt="Dewy serum droplet showing silky lightweight texture on skin with a natural botanical glow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDthB1tVG5oWI7umgRJcB-exIV3T3bppGDbyAdA51juKmHTqok3UeM7FyjK5d0v-_biJKtRTiXP6SnIKmzpYiPw--o-D4T5d_9GHOlroWEhCLWInzzfdOoBzsYCV-BOhbzutfH6L76tNZYx1Y1lvxi2d3w1kEBEPcpi6mwsz6742jlA4CQjGs34I55E2iWg0fwetCz3QM3ckG86FRaC4KBjCdNzyeboIyBOeWXKAik"/>
+</button>
+<button aria-label="View Routine Context" class="w-11 h-11 rounded-lg overflow-hidden bg-surface-container-low shadow-sm opacity-50 hover:opacity-100 transition-opacity" id="thumb-2" onclick="switchView(2)">
+<img alt="Angle 3" class="w-full h-full object-cover" data-alt="Merki Cares Luna bottle placed next to a soft eucalyptus leaf branch and ceramic bath vessel" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6uByDGCjNbs3hnScivrXHNCiUppqQOq4yth0sQYkUl-DFY1Xk-WcR2Ocjz2FvVdh1unakm8IJf2XEL4EBknJfcfpsWR8PWsZYaRWuwjg6wKWuCXD6YNGfQFii6QLpT9dQv7krcUwXaB27d1LFVfPjndd2F_b9yD48SaMknbbxQZE5r05TEByD5DITGIz-YVE37ybAQsRzAKmRtLL_oK4NGe0ErUOrkc6vDujJE7s"/>
+</button>
+</div>
+<div class="flex items-center gap-1.5 px-2">
+<span class="w-2 h-2 rounded-full bg-primary transition-all" id="dot-0"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant transition-all" id="dot-1"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant transition-all" id="dot-2"></span>
+</div>
+</div>
+</div>
+<!-- Header & Price Matrix -->
+<div class="bg-surface-container-lowest rounded-lg p-space-lg shadow-[0_4px_20px_rgba(44,44,44,0.03)] space-y-space-sm">
+<div class="flex items-center justify-between">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">
+        Merki Cares Botanicals
+      </p>
+<span class="inline-flex items-center gap-1 text-[#25D366] font-label-md text-label-md">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+        Verified Formula
+      </span>
+</div>
+<div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">
+        Luna Hydrating Renewal Serum
+      </h2>
+<p class="font-label-md text-label-md text-on-surface-variant mt-0.5">
+        30ml / 1.0 fl oz • Lightweight Botanical Complex
+      </p>
+</div>
+<!-- Rating & Social Proof -->
+<div class="flex items-center gap-2 pt-1 pb-2">
+<div class="flex items-center text-amber-500">
+<span class="material-symbols-outlined text-[17px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[17px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[17px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[17px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[17px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-md text-label-md text-primary font-bold">4.9</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+        (48 happy parents &amp; skincare lovers)
+      </span>
+</div>
+<div class="pt-2">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold">
+          ₦14,500
+        </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+          Delivery calculated via WhatsApp
+        </span>
+</div>
+<p class="font-label-sm text-label-sm text-on-secondary-container mt-1 bg-secondary-container/30 px-3 py-1.5 rounded-full inline-block">
+        Free Lagos priority delivery for orders of 2 or more bottles
+      </p>
+</div>
+</div>
+<!-- Direct Conversion Buttons -->
+<div class="space-y-3">
+<a class="w-full flex items-center justify-center gap-2.5 py-4 px-6 rounded-full bg-[#25D366] text-white shadow-[0_10px_24px_rgba(37,211,102,0.35)] hover:brightness-105 active:scale-[0.98] transition-all" href="https://wa.me/2348109686444?text=Hi%20Merki%20Cares%2C%20I%20would%20like%20to%20order%20Luna%20Hydrating%20Renewal%20Serum" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span class="font-label-lg text-label-lg font-bold">Order on WhatsApp (08109686444)</span>
+</a>
+<p class="text-center font-label-sm text-label-sm text-on-surface-variant">
+      Pre-fills: <span class="italic text-on-surface">“Hi Merki Cares, I would like to order Luna Hydrating Renewal Serum”</span>
+</p>
+<a class="w-full flex items-center justify-center gap-2.5 py-3.5 px-6 rounded-full bg-surface-container-high text-primary hover:bg-surface-variant active:scale-[0.98] transition-all" href="https://ig.me/m/merkicares" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+<span class="font-label-lg text-label-lg">Order via Instagram DM (@merkicares)</span>
+</a>
+</div>
+<!-- Key Benefits (Apothecary Comfort Cards) -->
+<div class="space-y-space-sm pt-2">
+<div class="flex items-center justify-between px-1">
+<h3 class="font-headline-sm text-headline-sm text-primary">
+        Key Botanical Benefits
+      </h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Clinical + Pure</span>
+</div>
+<div class="grid grid-cols-1 gap-3">
+<!-- Benefit 1 -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-[0_4px_16px_rgba(44,44,44,0.02)] flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center shrink-0 text-on-secondary-container">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">water_drop</span>
+</div>
+<div class="space-y-0.5">
+<h4 class="font-label-lg text-label-lg text-primary">
+            Deep Long-Lasting Hydration
+          </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Multi-weight hyaluronic acid keeps skin plump, cushiony, and deeply hydrated for 24 hours without feeling heavy.
+          </p>
+</div>
+</div>
+<!-- Benefit 2 -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-[0_4px_16px_rgba(44,44,44,0.02)] flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">spa</span>
+</div>
+<div class="space-y-0.5">
+<h4 class="font-label-lg text-label-lg text-primary">
+            Barrier Repair &amp; Soothing
+          </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Centella asiatica (Cica) and colloidal oat extract quickly calm flushed redness and skin fatigue from sleepless nights.
+          </p>
+</div>
+</div>
+<!-- Benefit 3 -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-[0_4px_16px_rgba(44,44,44,0.02)] flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-full bg-secondary-container/50 flex items-center justify-center shrink-0 text-on-secondary-container">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</div>
+<div class="space-y-0.5">
+<h4 class="font-label-lg text-label-lg text-primary">
+            Parent &amp; Newborn Safe
+          </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Zero essential oils, 100% fragrance-free, paraben-free. Safe for tender skin contact around nursing infants.
+          </p>
+</div>
+</div>
+</div>
+</div>
+<!-- How to Use / Ritual Card -->
+<div class="bg-surface-container-low rounded-lg p-space-lg space-y-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">routine</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">The Gentle Ritual</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      Warm 2–3 drops between your palms. Gently press into clean, slightly damp skin morning and evening. Follow with your favorite moisturizer or balm to seal in the nourishment.
+    </p>
+<div class="grid grid-cols-3 gap-2 pt-2">
+<div class="bg-surface-container-lowest rounded p-2.5 text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Step 01</span>
+<span class="font-label-md text-label-md text-primary font-semibold">Cleanse</span>
+</div>
+<div class="bg-primary text-on-primary rounded p-2.5 text-center shadow-sm">
+<span class="font-label-sm text-label-sm opacity-80 block uppercase">Step 02</span>
+<span class="font-label-md text-label-md text-white font-semibold">Luna Serum</span>
+</div>
+<div class="bg-surface-container-lowest rounded p-2.5 text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Step 03</span>
+<span class="font-label-md text-label-md text-primary font-semibold">Lock Moisture</span>
+</div>
+</div>
+</div>
+<!-- Transparent Botanical Formula (Accordion) -->
+<div class="bg-surface-container-lowest rounded-lg p-space-lg shadow-[0_4px_16px_rgba(44,44,44,0.02)] space-y-space-sm">
+<button aria-expanded="false" class="w-full flex items-center justify-between text-left group" id="ingredients-toggle" onclick="toggleAccordion()">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+          Pure &amp; Clean Ingredients
+        </h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+          EWG Green Level • 100% Transparent
+        </p>
+</div>
+<span class="material-symbols-outlined text-primary text-[24px] transition-transform duration-200" id="accordion-icon">
+        expand_more
+      </span>
+</button>
+<div class="hidden pt-2 space-y-3" id="ingredients-content">
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low font-label-sm text-label-sm text-on-surface">Aqua</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low font-label-sm text-label-sm text-on-surface">Botanical Glycerin</span>
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/50 font-label-sm text-label-sm text-on-secondary-container font-semibold">Niacinamide (3%)</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low font-label-sm text-label-sm text-on-surface">Sodium Hyaluronate</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low font-label-sm text-label-sm text-on-surface">Panthenol (Pro-Vitamin B5)</span>
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/50 font-label-sm text-label-sm text-on-secondary-container font-semibold">Avena Sativa (Oat) Kernel Extract</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low font-label-sm text-label-sm text-on-surface">Centella Asiatica Extract</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low font-label-sm text-label-sm text-on-surface">Allantoin</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed pt-1">
+        Formulated at a skin-identical pH of 5.4. No added fragrance, no drying alcohols, no essential oils, no synthetic colorants.
+      </p>
+</div>
+</div>
+<!-- Direct WhatsApp Specialist Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_6px_24px_rgba(44,44,44,0.03)] flex flex-col items-center text-center space-y-3">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">support_agent</span>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-sm text-headline-sm text-primary">
+        Questions About Your Skin Routine?
+      </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs mx-auto">
+        Every skin journey is unique. Message 08109686444 directly anytime for a free routine consultation before ordering.
+      </p>
+</div>
+<a class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container active:scale-95 transition-all shadow-sm" href="https://wa.me/2348109686444?text=Hi%20Merki%20Cares%2C%20I%20have%20a%20question%20about%20my%20skin%20type%20and%20the%20Luna%20Serum" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+      Chat with Skincare Specialist
+    </a>
+</div>
+</div>
+<script>
+  function switchView(index) {
+    const thumbs = [document.getElementById('thumb-0'), document.getElementById('thumb-1'), document.getElementById('thumb-2')];
+    const dots = [document.getElementById('dot-0'), document.getElementById('dot-1'), document.getElementById('dot-2')];
+    
+    thumbs.forEach((t, i) => {
+      if (t) {
+        t.style.opacity = i === index ? '1' : '0.4';
+      }
+    });
+
+    dots.forEach((d, i) => {
+      if (d) {
+        if (i === index) {
+          d.className = 'w-2 h-2 rounded-full bg-primary transition-all';
+        } else {
+          d.className = 'w-1.5 h-1.5 rounded-full bg-outline-variant transition-all';
+        }
+      }
+    });
+  }
+
+  function toggleAccordion() {
+    const content = document.getElementById('ingredients-content');
+    const icon = document.getElementById('accordion-icon');
+    const button = document.getElementById('ingredients-toggle');
+    
+    if (content.classList.contains('hidden')) {
+      content.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+      button.setAttribute('aria-expanded', 'true');
+    } else {
+      content.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+      button.setAttribute('aria-expanded', 'false');
+    }
+  }
+</script></main><a aria-label="Chat with Merki Cares on WhatsApp" class="fixed bottom-6 right-5 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-[0_10px_28px_-4px_rgba(37,211,102,0.45)] hover:scale-105 active:scale-95 transition-transform" href="https://wa.me/2348109686444" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[26px]">chat</span></a></body></html>
